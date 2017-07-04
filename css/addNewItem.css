@@ -1,0 +1,82 @@
+.headerAddNewItem{
+	margin-top: 30px;
+}
+.marginLink{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	background-color : #039BE5;
+	color: white;
+}
+.marginLink:hover{
+	background-color : #0277BD;
+	color: white;
+}
+.form-login{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	margin-top: 30px;
+	background-color : #ffffff;
+}
+
+.form-login:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.body-wrapper{
+	min-height : 100%;
+	background-color : #F5F5F5;
+}
+
+.form-add-item{
+	margin-bottom: 12px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    background-color: #FF80AB;
+    color: white;
+    border: none;
+}
+.btn-file:hover{
+	background-color: #FF4081;
+    color: white;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background-color: #FF80AB;
+    color: white;
+    cursor: inherit;
+    display: block;
+}
+
+#reviewImage, #reviewImage2, #reviewImage3 {
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 200px;
+    height: 200px;
+}
+
+.save-msg{
+    display: none;
+    color: green;
+}
+
+html{
+	min-height:100vh;
+}
+body {
+    height: 100vh;
+}

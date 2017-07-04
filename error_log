@@ -1,0 +1,45 @@
+[06-Apr-2017 11:12:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home3/yanika/public_html/thaisu/thaisuWeb/db.php:7
+Stack trace:
+#0 /home3/yanika/public_html/thaisu/thaisuWeb/db.php(7): PDO->__construct('mysql:host=loca...', 'root', 'skywalker')
+#1 /home3/yanika/public_html/thaisu/thaisuWeb/session.php(2): include('/home3/yanika/p...')
+#2 /home3/yanika/public_html/thaisu/thaisuWeb/index.php(2): include('/home3/yanika/p...')
+#3 {main}
+  thrown in /home3/yanika/public_html/thaisu/thaisuWeb/db.php on line 7
+[06-Apr-2017 11:13:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home3/yanika/public_html/thaisu/thaisuWeb/db.php:7
+Stack trace:
+#0 /home3/yanika/public_html/thaisu/thaisuWeb/db.php(7): PDO->__construct('mysql:host=loca...', 'root', 'skywalker')
+#1 /home3/yanika/public_html/thaisu/thaisuWeb/about.php(90): include('/home3/yanika/p...')
+#2 {main}
+  thrown in /home3/yanika/public_html/thaisu/thaisuWeb/db.php on line 7
+[06-Apr-2017 11:13:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home3/yanika/public_html/thaisu/thaisuWeb/db.php:7
+Stack trace:
+#0 /home3/yanika/public_html/thaisu/thaisuWeb/db.php(7): PDO->__construct('mysql:host=loca...', 'root', 'skywalker')
+#1 /home3/yanika/public_html/thaisu/thaisuWeb/about.php(90): include('/home3/yanika/p...')
+#2 {main}
+  thrown in /home3/yanika/public_html/thaisu/thaisuWeb/db.php on line 7
+[06-Apr-2017 11:13:23 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home3/yanika/public_html/thaisu/thaisuWeb/db.php:7
+Stack trace:
+#0 /home3/yanika/public_html/thaisu/thaisuWeb/db.php(7): PDO->__construct('mysql:host=loca...', 'root', 'skywalker')
+#1 /home3/yanika/public_html/thaisu/thaisuWeb/products.php(94): include('/home3/yanika/p...')
+#2 {main}
+  thrown in /home3/yanika/public_html/thaisu/thaisuWeb/db.php on line 7
+[06-Apr-2017 11:14:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home3/yanika/public_html/thaisu/thaisuWeb/db.php:7
+Stack trace:
+#0 /home3/yanika/public_html/thaisu/thaisuWeb/db.php(7): PDO->__construct('mysql:host=loca...', 'root', 'skywalker')
+#1 /home3/yanika/public_html/thaisu/thaisuWeb/about.php(90): include('/home3/yanika/p...')
+#2 {main}
+  thrown in /home3/yanika/public_html/thaisu/thaisuWeb/db.php on line 7
+[06-Apr-2017 11:22:09 America/Chicago] PHP Fatal error:  Call to undefined function password_verify() in /home3/yanika/public_html/thaisu/thaisuWeb/verifyUser.php on line 18
+[06-Apr-2017 11:28:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/yanika/public_html/thaisu/thaisuWeb/view.php:14) in /home3/yanika/public_html/thaisu/thaisuWeb/session.php on line 3
+[06-Apr-2017 11:29:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/yanika/public_html/thaisu/thaisuWeb/view.php:14) in /home3/yanika/public_html/thaisu/thaisuWeb/session.php on line 3
+[06-Apr-2017 11:32:45 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/yanika/public_html/thaisu/thaisuWeb/view.php:14) in /home3/yanika/public_html/thaisu/thaisuWeb/session.php on line 2
+[06-Apr-2017 11:32:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/yanika/public_html/thaisu/thaisuWeb/view.php:14) in /home3/yanika/public_html/thaisu/thaisuWeb/session.php on line 2
+[06-Apr-2017 11:32:53 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/yanika/public_html/thaisu/thaisuWeb/view.php:14) in /home3/yanika/public_html/thaisu/thaisuWeb/session.php on line 2
+[06-Apr-2017 11:32:56 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/yanika/public_html/thaisu/thaisuWeb/view.php:14) in /home3/yanika/public_html/thaisu/thaisuWeb/session.php on line 2
+[06-Apr-2017 11:38:15 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yanika/public_html/thaisu/thaisuWeb/upload.php on line 5
+[06-Apr-2017 11:38:15 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home3/yanika/public_html/thaisu/thaisuWeb/upload.php on line 5
+[06-Apr-2017 11:38:15 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yanika/public_html/thaisu/thaisuWeb/upload.php on line 5
+[06-Apr-2017 11:38:15 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home3/yanika/public_html/thaisu/thaisuWeb/upload.php on line 5
+[06-Apr-2017 11:38:15 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yanika/public_html/thaisu/thaisuWeb/upload.php on line 5
+[06-Apr-2017 11:38:15 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home3/yanika/public_html/thaisu/thaisuWeb/upload.php on line 5
+[06-Apr-2017 11:38:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/yanika/public_html/thaisu/thaisuWeb/upload.php:5) in /home3/yanika/public_html/thaisu/thaisuWeb/upload.php on line 19
